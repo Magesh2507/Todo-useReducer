@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+
+max-width: 800px;
+padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+    color: darkgreen;
+    margin:20px;
+}
+input{
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+
+label{
+    margin-right: 10px;
+    color: darkblue;
+}
+
+.task-list{
+    margin-top: 50px;
+}
+ul{
+    list-style-type: none;   
+}
+
+li{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;   
+}
+
+.update{
+    background-color: gray;
+}
+
+.delete{
+    background-color: red;
+    margin-left: 10px;
+}
