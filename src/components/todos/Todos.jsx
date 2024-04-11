@@ -49,7 +49,7 @@ const Todos = () => {
                 <span>{todo.task}</span>
                 <button className='update' onClick={()=>{
                   const updatedTask = prompt("enter task", todo.task)
-                  if(updatedTask !== null)
+                  if(updatedTask !== "")
                    dispatch({type:"update", payload:{id: todo.id, updatedTask : updatedTask}})
                 }}>Update</button>
                 <button className='delete' onClick={()=>{
